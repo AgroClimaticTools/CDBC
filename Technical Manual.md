@@ -1,8 +1,6 @@
-
-
 # Technical Manual
-- [CDBC Methodology - Quantile Mapping](#CDBC-Methodology:-Quantile-Mapping)
-- [Climate Data Bias Corrector (CDBC): GUI (Graphical User Interface)](#Climate-Data-Bias-Corrector-(CDBC):-GUI-(Graphical-User-Interface))
+- [CDBC Methodology - Quantile Mapping](#CDBC-Methodology-Quantile-Mapping)
+- [Climate Data Bias Corrector (CDBC): GUI (Graphical User Interface)](#Climate-Data-Bias-Corrector-CDBC-GUI-Graphical-User-Interface)
 - [File Format](#File-Format)
 - [Simulation Setups](#Simulation-Setups)
 ---

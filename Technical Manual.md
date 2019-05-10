@@ -1,18 +1,19 @@
 
 
 # Technical Manual
+- [CDBC Methodology - Quantile Mapping](#CDBC-Methodology:-Quantile-Mapping)
+- [Climate Data Bias Corrector (CDBC): GUI (Graphical User Interface)](#Climate-Data-Bias-Corrector-(CDBC):-GUI-(Graphical-User-Interface))
+- [File Format](#File-Format)
+- [Simulation Setups](#Simulation-Setups)
+---
 
 Before leading to this document, please make sure that you have install the Climate Data Bias Corrector tool. If you have not installed it, please refer to [README](README.md) to get the overview of the tool and installation procedure.
-### CDBC Methodology - Quantile Mapping
+
+### CDBC Methodology: Quantile Mapping
 Quantile mapping approach has been used due to its simplicity, effectiveness and low computational cost for development of the CDBC tool for bias correction of climate models’ outputs. Quantile mapping approach (also known as ‘probability mapping’ and ‘distribution mapping’) comprised of development of the statistical relationship between observed and model simulated outputs by replacing the simulated values with observed ones at same cumulative density function (CDF) of used distribution depending on the climate variable. Please refer to Table 1 for more detail.
 
 Table 1 Distributions and equations used for bias correction of different climatic variables
-| Distributions/Climate Variables			| Equations			|
-|-------------------------------------	        |---------------------------------------------	|
-| Gamma/Precipitation                 	    | $\bar{x}_{ms.corr}=\begin{cases} F_{oh}^{-1}(F_{mh}(x_{ms})),& x_{ms}\geq x_{th} \\ 0, & x_{ms} < x_{th} \end{cases}$ |
-| Normal/Temperature                      	|$\bar{x}_{ms.corr}= x_{ms} + F_{oh}^{-1}(F_{ms}(x_{ms})) - F_{mh}^{-1}(F_{ms}(x_{ms}))$|
-| Beta/Solar Radiation                       	|$\bar{x}_{ms.corr}= F_{oh}^{-1}(F_{ms}(x_{ms}))$|
-
+![Picture12](Screenshots/Picture12.png)
 **Note**: where x is climatic variable, $\bar{x}_{ms.corr}$ is bias corrected model simulated data; to categories between the wet and the dry day threshold value x_th is used (day with precipitation greater than 1 mm is assumed to be a wet day); $F$ is CDF whereas $F^{-1}$ is its inverse. (o = observed, m = model, h = historical period, and s = simulation period). Here, the simulated period can either be historical or a future period.
 
 ### Climate Data Bias Corrector (CDBC): GUI (Graphical User Interface)

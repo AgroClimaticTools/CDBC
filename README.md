@@ -1,5 +1,9 @@
-# Getting Started  
-  
+# Getting Started
+- [Overview](#Overview)
+- [Installation](#Installation)
+- [Technical Manual](#Technical-Manual)
+- [License](#License)
+---
 ### Overview  
 The Climate Data Bias Corrector tool was developed for removing the bias from Global Climate Model (GCM)/Regional Climate Model (RCM) derived outputs of climate variables- precipitation, temperature and solar radiation for the historical as well as the future period. The tool is developed using a free and open-source widget toolkit- PyQt available in Python. The source codes of the tool can be found at [Source Code](/Source%20Codes) folder which are feasible to modify/update in future for further improvement of used as well as the addition of new methodologies to remove the bias from GCM/RCM projections.  
   

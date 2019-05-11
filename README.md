@@ -25,5 +25,5 @@ The tool is easy to install in all the versions of Windows and does not require 
 The technical manual provides the step-by-step procedure about the tool working and the input file format description. For the technical manual, please click [Technical Manual](Technical%20Manual.md) 
 
 ### License
-© Agro-Climatic Tools  
+© Climate Data Bias Corrector  
 Licensed under the [MIT License](LICENSE) 

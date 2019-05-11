@@ -1,4 +1,5 @@
-# Getting Started
+# Getting Started 
+[![DOI](https://zenodo.org/badge/179143268.svg)](https://zenodo.org/badge/latestdoi/179143268)
 - [Overview](#Overview)
 - [Installation](#Installation)
 - [Technical Manual](#Technical-Manual)

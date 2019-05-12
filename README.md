@@ -3,6 +3,7 @@
 - [Overview](#Overview)
 - [Installation](#Installation)
 - [Technical Manual](#Technical-Manual)
+- [Cite As](#Cite-as)
 - [License](#License)
 ---
 ### Overview  
@@ -24,6 +25,11 @@ The tool is easy to install in all the versions of Windows and does not require 
   
 ### Technical Manual 
 The technical manual provides the step-by-step procedure about the tool working and the input file format description. For the technical manual, please click [Technical Manual](Technical%20Manual.md) 
+
+### Cite as
+Agro-Climatic Tools. (2019, May 11). AgroClimaticTools/CDBC: Climate Data Bias Corrector [First Release] (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.2745243
+
+For more options, please check [![DOI](https://zenodo.org/badge/179143268.svg)](https://zenodo.org/badge/latestdoi/179143268).
 
 ### License
 © Climate Data Bias Corrector  

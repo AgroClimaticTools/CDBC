@@ -32,5 +32,5 @@ Agro-Climatic Tools. (2019, May 11). AgroClimaticTools/CDBC: Climate Data Bias C
 For more options, please check [![DOI](https://zenodo.org/badge/179143268.svg)](https://zenodo.org/badge/latestdoi/179143268).
 
 ### License
-© Climate Data Bias Corrector  
+Copyright © 2019 Climate Data Bias Corrector  
 Licensed under the [MIT License](LICENSE) 

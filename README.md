@@ -29,6 +29,8 @@ The technical manual provides the step-by-step procedure about the tool working 
 ### Cite as
 Agro-Climatic Tools. (2019, May 11). AgroClimaticTools/CDBC: Climate Data Bias Corrector [First Release] (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.2745243
 
+Gupta, R., Bhattarai, R., & Mishra, A. (2019). Development of Climate Data Bias Corrector (CDBC) Tool and Its Application over the Agro-Ecological Zones of India. Water, 11(5), 1102. https://doi.org/10.3390/w11051102
+
 For more options, please check [![DOI](https://zenodo.org/badge/179143268.svg)](https://zenodo.org/badge/latestdoi/179143268).
 
 ### License
